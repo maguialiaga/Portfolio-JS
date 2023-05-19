@@ -5,14 +5,23 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.1",
+    "babel-plugin-styled-components": "^2.1.1",
+    "framer-motion": "^10.12.12",
     "gatsby": "^5.9.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
+    "gatsby-plugin-netlify": "^5.1.0",
+    "gatsby-plugin-offline": "^6.10.0",
     "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-plugin-styled-components": "^6.10.0",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "prettier": "^2.8.8"
