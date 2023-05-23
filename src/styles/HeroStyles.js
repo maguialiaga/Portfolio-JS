@@ -4,13 +4,14 @@ import { motion } from "framer-motion"
 export const ContentRow = styled.div`
   display: flex;
   /* margin: 0 -5px -5px -5px; */
-  margin: 40px 100px 100px 50px;
+  margin: 40px 10px 50px 100px;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: ${({ reverse }) => (reverse ? "row-reverse" : "row")};
   justify-content: space-around;
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
+    margin: 0 -5px -5px -5px;
   }
 `
 
@@ -78,6 +79,7 @@ export const ImgWrapper = styled(motion.div)`
   justify-content: center;
   position: relative;
   @media screen and (max-width: 768px) {
+    padding-bottom: 3rem;
   }
 `
 

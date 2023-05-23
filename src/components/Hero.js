@@ -120,7 +120,6 @@ const Hero = () => {
                 src="../assets/images/mac.jpg"
                 width={300}
                 alt="mac"
-                placeholder="blurred"
                 formats={["AUTO", "WEBP", "AVIF"]}
               />
             </ImgWrapper>
