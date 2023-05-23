@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 export const FooterCont = styled.nav`
   background-color: rgb(246, 245, 241, 1);
   /* backdrop-filter: blur(8px); */
-  box-shadow: 0 20px 30px rgb(0, 0, 0, 0.15);
+  box-shadow: 20px 0 30px rgb(0, 0, 0, 0.15);
   height: 80px;
   display: flex;
   justify-content: center;

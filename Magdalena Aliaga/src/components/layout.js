@@ -17,7 +17,7 @@ const theme = {
   color: {
     text: "black",
     // background: "#F6F5F1",
-    background: rgb(246, 245, 241, 1),
+    background: "rgb(246, 245, 241, 1)",
   },
   fonts: {
     header: "Montserrat",

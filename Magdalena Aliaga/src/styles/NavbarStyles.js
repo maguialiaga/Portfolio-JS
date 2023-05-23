@@ -100,7 +100,7 @@ export const NavItem = styled.li`
 
 export const NavLinks = styled(Link)`
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -139,12 +139,12 @@ export const NavBtnLink = styled(Link)`
 export const NavBarBtn = styled(motion.button)`
   /* border-radius: 7px; */
   border-radius: 25px;
-  background: none;
+  background: rgb(75, 68, 138);
   white-space: nowrap;
   padding: 10px 20px;
   font-size: 16px;
-  color: rgb(75, 68, 138);
-  font-weight: 600;
+  color: #fff;
+  font-weight: 500;
   outline: none;
   border: 2px solid rgb(75, 68, 138);
   cursor: pointer;
@@ -153,7 +153,8 @@ export const NavBarBtn = styled(motion.button)`
 
   &:hover {
     transition: 0.3s ease;
-    background-color: rgb(75, 68, 138);
-    color: #fff;
+    background-color: rgb(246, 245, 241, 1);
+    border: 2px solid rgb(75, 68, 138);
+    color: rgb(75, 68, 138);
   }
 `

@@ -4,10 +4,11 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Hero from "../components/Hero"
 
 const Home = () => (
   <Layout>
-    <p>El Home</p>
+    <Hero />
   </Layout>
 )
 
