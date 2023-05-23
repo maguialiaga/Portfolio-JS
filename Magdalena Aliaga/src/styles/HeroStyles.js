@@ -3,7 +3,8 @@ import { motion } from "framer-motion"
 
 export const ContentRow = styled.div`
   display: flex;
-  margin: 0 -5px -5px -5px;
+  /* margin: 0 -5px -5px -5px; */
+  margin: 40px 100px 100px 50px;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: ${({ reverse }) => (reverse ? "row-reverse" : "row")};
@@ -133,11 +134,12 @@ export const Subtitle2 = styled(motion.p)`
 export const ContentButton = styled(motion.button)`
   height: 3rem;
   padding: 16px 32px;
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-weight: 500;
   font-size: 0.8rem;
   line-height: 18px;
-  letter-spacing: 1.54px;
-  text-transform: uppercase;
+  /* letter-spacing: 1.54px; */
+  /* text-transform: uppercase; */
   cursor: pointer;
   background: rgb(75, 68, 138);
   color: ${({ inverse }) => (inverse ? "#0c4577" : "white")};

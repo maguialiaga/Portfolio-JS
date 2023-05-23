@@ -100,7 +100,7 @@ const Hero = () => {
                 }
                 // onClick={handleClick}
               >
-                Send your link here
+                Get in touch!
               </ContentButton>
             </TextWrapper>
           </ContentColumn>
