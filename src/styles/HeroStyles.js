@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
+import "animate.css"
 
 export const ContentRow = styled.div`
   display: flex;
@@ -154,6 +155,10 @@ export const ContentButton = styled(motion.button)`
   border: 2px solid
     ${({ inverse }) => (inverse ? "#0c4577" : "rgb(75, 68, 138)")};
   cursor: pointer;
+  animation: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+
   /* position: relative;
   overflow: hidden; */
   &:before {

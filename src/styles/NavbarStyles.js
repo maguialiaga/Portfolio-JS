@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { Container } from "../globalStyles"
 import { Link } from "gatsby"
 import { motion } from "framer-motion"
+import "animate.css"
 
 export const Nav = styled.nav`
   background-color: rgb(246, 245, 241, 1);
@@ -15,6 +16,8 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 999;
+  animation: fadeInDownBig;
+  animation-duration: 2s;
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }

@@ -8,7 +8,6 @@ import {
   ContentButton,
   TopLine,
   Subtitle,
-  Subtitle2,
   ImgWrapper,
   ContentColumn,
 } from "../styles/HeroStyles"
@@ -92,13 +91,13 @@ const Hero = () => {
                 initial={initial}
                 transition={{ delay: 1, duration: 0.6 }}
                 animate={animation}
-                onClick={() =>
-                  window.scrollTo({
-                    top: 1900,
-                    behavior: "smooth",
-                  })
-                }
-                // onClick={handleClick}
+                onClick={() => window.open("mailto:dev@aliagamagdalena.com")}
+                // onClick={() =>
+                //   window.scrollTo({
+                //     top: 1900,
+                //     behavior: "smooth",
+                //   })
+                // }
               >
                 Get in touch!
               </ContentButton>
